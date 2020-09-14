@@ -1,4 +1,10 @@
 rootProject.name = 'smsautomatic'
+include ':react-native-sms-retriever'
+project(':react-native-sms-retriever').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sms-retriever/android')
+include ':react-native-sms-retriever-api'
+project(':react-native-sms-retriever-api').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-sms-retriever-api/android')
+include ':react-native-otp-verify'
+project(':react-native-otp-verify').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-otp-verify/android')
 
 apply from: '../node_modules/react-native-unimodules/gradle.groovy'
 includeUnimodulesProjects()
