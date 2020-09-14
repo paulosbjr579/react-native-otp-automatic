@@ -7,11 +7,18 @@ export default class Home extends Component {
     text: ''
   };
 
-  componentDidMount() {
+  async componentDidMount() {
     RNOtpVerify.getOtp()
       .then(p => RNOtpVerify.addListener(this.otpHandler))
       .catch(p => console.log(p));
+
+    await this.getHash();
   }
+
+  getHash = () =>
+    RNOtpVerify.getHash()
+      .then(console.log)
+      .catch(console.log);
 
   otpHandler = (message) => {
     this.onChangeText(message.replace(/\D/g, '').substr(0,4))
