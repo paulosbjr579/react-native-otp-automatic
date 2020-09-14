@@ -1,0 +1,12 @@
+{
+  "name": "sms-automatic",
+  "displayName": "sms-automatic",
+  "expo": {
+    "name": "sms-automatic",
+    "slug": "sms-automatic",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  }
+}
