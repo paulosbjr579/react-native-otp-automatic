@@ -18,7 +18,7 @@
     "react-native": "~0.62.2",
     "react-native-gesture-handler": "~1.6.1",
     "react-native-otp-verify": "^1.0.3",
-    "react-native-reanimated": "~1.9.0",
+    "react-native-reanimated": "~2.3.0",
     "react-native-screens": "~2.9.0",
     "react-native-sms-retriever": "^1.1.1",
     "react-native-unimodules": "~0.10.1",
