@@ -2267,12 +2267,17 @@ astral-regex@^1.0.0:
   resolved "https://registry.yarnpkg.com/astral-regex/-/astral-regex-1.0.0.tgz#6c8c3fb827dd43ee3918f27b82782ab7658a6fd9"
   integrity sha512-+Ryf6g3BKoRc7jfp7ad8tM4TtMiaWvbF/1/sQcZPkkS7ag3D5nMBCe2UfOTONtAkaG0tO0ij3C5Lwmf1EiyjHg==
 
-async@^2.4.0, async@^2.6.2:
+async@^2.4.0:
   version "2.6.3"
   resolved "https://registry.yarnpkg.com/async/-/async-2.6.3.tgz#d72625e2344a3656e3a3ad4fa749fa83299d82ff"
   integrity sha512-zflvls11DCy+dQWzTW2dzuilv8Z5X/pjfmZOWba6TNIVDm+2UDaJmXSOXlasHKfNBs8oo3M0aT50fDEWfKZjXg==
   dependencies:
     lodash "^4.17.14"
+
+async@^3.2.2:
+  version "3.2.3"
+  resolved "https://registry.yarnpkg.com/async/-/async-3.2.3.tgz#ac53dafd3f4720ee9e8a160628f18ea91df196c9"
+  integrity sha512-spZRyzKL5l5BZQrr/6m/SqFdBN0q3OCI0f9rjfBzCMBIP4p75P620rR3gTmaksNOhmzgdxcaxdNfMy6anrbM0g==
 
 asynckit@^0.4.0:
   version "0.4.0"
@@ -6990,12 +6995,12 @@ sane@^4.0.3:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-save@^2.4.0:
-  version "2.4.0"
-  resolved "https://registry.yarnpkg.com/save/-/save-2.4.0.tgz#af93ff9b3d7a41d0aff49a23433870613a460f9b"
-  integrity sha512-wd5L2uVnsKYkIUaK6i8Ie66IOHaI328gMF0MPuTJtYOjXgUolC33LSIk7Qr8WVA55QHaGwfiVS8a7EFIeGOR3w==
+save@^2.5.0:
+  version "2.5.0"
+  resolved "https://registry.yarnpkg.com/save/-/save-2.5.0.tgz#426663ca04eeaf87f909656aec52a1ba5d7e6195"
+  integrity sha512-xiVLpKVbx8EmW0HDkNRjYL271OnIRCo8VGWAEq6/K+E0dgNrwKV2xvKXdfPj6HGYA6l760800LyewSY3ooljCg==
   dependencies:
-    async "^2.6.2"
+    async "^3.2.2"
     event-stream "^4.0.1"
     lodash.assign "^4.2.0"
     mingo "1"
